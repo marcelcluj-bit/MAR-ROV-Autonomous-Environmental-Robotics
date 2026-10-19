@@ -32,4 +32,26 @@ By deploying an autonomous fleet of underwater/terrestrial rovers (ROV/AUV) and 
 We welcome contributions from roboticists, oceanographers, materials scientists, and developers worldwide. Feel free to open an issue or submit a pull request to improve navigation algorithms or structural resilience models.
 
 ---
+# MAR-ROV Architecture Adaptation for Martian Planetary Exploration
+
+> **Dual-Use Open-Source Framework:** From Abyssal Oceans to Extraterrestrial Environments.
+
+While designed primarily for extreme deep-sea hazardous waste harvesting, the core autonomous architecture of **MAR-ROV** directly addresses the primary engineering constraints of planetary robotics on Mars.
+
+---
+
+## 🚀 Key Code Highlight: The Autonomous Control Loop
+
+The Python control kernel (`ai-navigation/rover_control.py`) implements a self-governing operational loop capable of real-time telemetry assessment without remote human latency:
+
+```python
+# Core Autonomous Progress & Environmental Telemetry Loop
+while self.current_depth < target_depth:
+    self.current_depth += 100.0
+    pressure_bar = self.current_depth / 10.0
+    print(f"-> Current Depth: {self.current_depth}m | Hydrostatic Pressure: {pressure_bar} bar")
+    time.sleep(0.5)
+
+
+
 *Initiated by `marcelcluj-bit` — Built for the preservation of our planet's future.*
