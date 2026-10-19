@@ -53,6 +53,10 @@ while self.current_depth < target_depth:
     time.sleep(0.5)
 
 
+----
+```
+
+
 🪐 Direct Applications for Mars Exploration (e.g., SpaceX / Starship Missions)
 1. Zero-Latency Autonomous Navigation
 The Martian Challenge: Communications between Earth and Mars suffer from a round-trip time delay of 8 to 48 minutes. Direct teleoperation (joystick driving) is physically impossible.
