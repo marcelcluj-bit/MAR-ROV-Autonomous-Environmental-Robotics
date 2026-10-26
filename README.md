@@ -78,3 +78,6 @@ Open-Source & Free for Humanity — Built to safeguard Earth and explore the Cos
 
 
 *Initiated by `marcelcluj-bit` — Built for the preservation of our planet's future.*
+
+
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal)](https://paypal.me/marcelcluj) For Succes !!!
